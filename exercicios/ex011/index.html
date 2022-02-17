@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o navegador</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/JC-P.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/JC-M.jpg" type="image/jpg">
+        <img src="imagens/JC-G.jpg" alt="Foto Flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Aprendendo a reproduzir áudios em HTML5</p>
+    <audio src="midia/tetris.mp3" controls autoplay></audio>
+    <!-- MP3 WAV(EVITAR POR SER BEM PESADO) OGG-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/tetris.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudios.</p>
+        <a href="midia/tetris.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+</body>
+</html>

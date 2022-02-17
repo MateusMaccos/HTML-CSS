@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif; 
+            /* Medidas Absolutas
+            cm, mm, in(Polegada), px, pt, pc
+            
+            - Usar Pixels(px) ou em
+
+            Medidas Relativas
+            em(tamanho atual), ex(Relativa), rem, vw(ViewWidth), vh, %
+            16px = 1em
+            */
+            font-size: 16px; /*16px é o tamanho padrão*/
+            font-weight: normal; /*lighter normal bold bolder*/
+            font-style: italic;
+            text-decoration: underline;
+            /*Weight:Peso Width:Largura height:Altura*/ 
+        }
+        h1{
+            /* shorthand font
+            -font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style> <!-- font-family normalmente recomenda: Específica, Específica, Geral -->
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius labore repellat officiis id quidem quia dolorem inventore dicta quisquam quo placeat sunt omnis sed consectetur sapiente corrupti molestias, laborum doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, placeat libero explicabo beatae eaque quaerat iste officiis obcaecati veniam repudiandae optio maxime hic? Fuga quasi vitae deleniti inventore dolorem animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel id ab debitis! Illum sit neque omnis ratione voluptatum. Quis voluptas, temporibus ea molestias debitis laborum consectetur alias voluptate ad nisi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio provident exercitationem dolorem accusamus. Distinctio sint praesentium, fugit ipsum quos harum, tempora maxime minus, laboriosam molestiae quibusdam autem perspiciatis commodi?</p>
+    <h2>Subtitulo de exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, magni? Quia est aspernatur minima veniam odit! Officia, nemo. Iste maiores nobis repellendus a unde sint aliquam suscipit eaque cupiditate voluptates!</p>
+</body>
+</html>
